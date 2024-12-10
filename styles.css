@@ -22,6 +22,11 @@
   font-weight: 800;
 }
 
+.course-title:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+
 body {
   background-color: var(--Yellow);
   display: flex;
@@ -51,6 +56,11 @@ body {
 
 .date {
   margin: 8px 0 8px 0;
+  color: var(--Gray-950);
+}
+
+.description {
+  color: var(--Gray-500);
 }
 
 .written-content {
@@ -77,4 +87,11 @@ body {
 
 .author p {
   margin: 0.3rem;
+}
+
+
+@media (max-width: 375px) {
+  .general-container {
+    max-width: 18rem;
+  }
 }
