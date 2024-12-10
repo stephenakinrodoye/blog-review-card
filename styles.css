@@ -39,6 +39,7 @@ body {
   margin: auto;
   padding: 1rem;
   border-radius: 1rem;
+  box-shadow: 4px 4px 0px 0px var(--Gray-950);
 }
 
 .general-container img {
